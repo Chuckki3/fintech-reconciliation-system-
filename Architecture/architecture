@@ -1,0 +1,31 @@
+fintech-reconciliation-system/
+│
+├── data/
+│   ├── internal/
+│   │   └── internal_transactions.csv
+│   │
+│   ├── external/
+│   │   ├── gateway_transactions.csv
+│   │   └── bank_settlements.csv
+│   │
+│   └── processed/
+│       ├── ledger_entries.csv
+│       ├── reconciliation_results.csv
+│       └── discrepancy_alerts.csv
+│
+├── ingestion/
+│   └── generate_data.py
+│
+├── ledger/
+│   └── ledger_engine.py
+│
+├── reconciliation/
+│   └── reconcile.py
+│
+├── alerts/
+│   └── alert_engine.py
+│
+├── notebooks/
+│
+├── README.md
+└── architecture.md
